@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+body{
+  background-color: rgba(0, 0, 0, 0.205);
+}
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* estilos del navbar */
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: black;
     height: 60px;
     padding: 0 20px;
   }
@@ -40,6 +46,73 @@ nav {
   
   .menu li a:hover {
     background-color: #fff;
-    color: #333;
+    color: black;
   }
+
+  /* fuentes de las letras  */
+  h1{
+    margin-top: 10%;
+    width: 135%;
+    height: auto;
+    font-family: 'Instrument Serif', serif;
+    font-size: 3rem;
+  }
+
+  p{
+    font-family: 'Instrument Serif', serif;
+    margin-top: 10%;
+  }
+
+  button{
+    margin-top: 10%;
+    font-family: 'Instrument Serif', serif;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 50%;
+
+  }
+
+  /* estilos del hero */
+
+  article{
+    width: 100%;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+  }
+
+  section{
+   
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.boton{
+
+width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.boton button:hover {
+  background-color: #fff;
+  border: solid black;
+  color: black;
+}
+
+img{
+  width: 100%;
+}
+  
   
